@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int linearSearch(int *arr, int n, int x) {
+int linearSearch(int *arr, int n, int x) {          //Time Complexity = O(logn)
     for(int i=0; i<n; i++) {
         if(arr[i] == x)
             return i;
