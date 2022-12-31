@@ -11,7 +11,6 @@ struct Student {
         cout<<"This is function inside structure"<<endl;
     }
 };
-
 void studentOutput(Student t) {
     cout<<t.roll<<"    "<<t.name<<"    "<<t.dept<<"    "<<t.marks<<endl;
 }
@@ -29,7 +28,8 @@ Student studentInput(){
     return t;
 }
 int main() {
-    struct Student s1;    //Declaration
+    //Declaration
+    struct Student s1;    
     s1.roll = 10;
     s1.name = "Bharat Kumar";
     //XXX     s.dept = "CSE";     //Error
@@ -39,7 +39,8 @@ int main() {
     s1.fun();
     cout<<endl;
     
-    Student s2 = {1, "Deepak Kumar", "ECE", 85.20};    //Declaration + Initialization    
+    //Declaration + Initialization 
+    Student s2 = {1, "Deepak Kumar", "ECE", 85.20};       
     cout<<s2.roll<<"    "<<s2.name<<"    "<<s2.dept<<"    "<<s2.marks<<endl;
     cout<<endl;
     
@@ -57,10 +58,15 @@ int main() {
     cout<<s3.roll<<"    "<<s3.name<<"    "<<s3.dept<<"    "<<s3.marks<<endl;
     cout<<endl;
     
-    //Taking input from user through function
-    Student s4;
-    s4 = studentInput();
-    studentOutput(s4);
+    //Designated Initialization
+    struct Student s4 = s3;     //It's copy s3 all data
+    cout<<s4.roll<<"    "<<s4.name<<"    "<<s4.dept<<"    "<<s4.marks<<endl;
+    cout<<endl;
+    
+    //Taking input from user and print output using function
+    Student s5;
+    s5 = studentInput();
+    studentOutput(s5);
 
     return 0;
 }
