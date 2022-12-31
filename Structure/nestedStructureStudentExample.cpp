@@ -40,13 +40,13 @@ int main() {
     s1.dob.date = 8;
     s1.dob.month = "September";
     s1.dob.year = 2001;
+    cout<<"Output for Student s1===>\n";
     cout<<s1.roll<<"    "<<s1.name<<"   "<<s1.dob.date<<"/"<<s1.dob.month<<"/"<<s1.dob.year<<endl;
-    cout<<endl;
     
     //Declaration + Initialization
     struct Student s2 = {5, "Deepak Singh", 5, "July", 2004};
+    cout<<"\n\nOutput for Student s2===>\n";
     cout<<s2.roll<<"    "<<s2.name<<"   "<<s2.dob.date<<"/"<<s2.dob.month<<"/"<<s2.dob.year<<endl;
-    cout<<endl;
     
     //Taking input from user
     Student s3;
@@ -62,17 +62,20 @@ int main() {
     getline(cin, s3.dob.month);
     cout<<"Enter year: ";
     cin>>s3.dob.year;
+    cout<<"\n\nOutput for Student s3===>\n";
     cout<<s3.roll<<"    "<<s3.name<<"   "<<s3.dob.date<<"/"<<s3.dob.month<<"/"<<s3.dob.year<<endl;
     cout<<endl;
     
     //Designated Initialization
     struct Student s4 = s3;     //It's copy s3 all data
+    cout<<"\n\nOutput for Student s4===>\n";
     cout<<s4.roll<<"    "<<s4.name<<"   "<<s4.dob.date<<"/"<<s4.dob.month<<"/"<<s4.dob.year<<endl;
     cout<<endl;
     
     //Taking input from user and print output using function
     Student s5;
     s5 = studentInput();
+    cout<<"\n\nOutput for Student s5===>\n";
     studentOutput(s5);
     
     return 0;
