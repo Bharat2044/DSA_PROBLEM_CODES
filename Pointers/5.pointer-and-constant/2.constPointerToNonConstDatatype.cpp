@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int a = 10;
-    int *const ptr = &a;        // non-const pointer to const int
+    int *const ptr = &a;        // const pointer to non-const int
     cout << a << "    " << *ptr << endl;
     cout << &a << "    " << ptr << endl<<endl;
 
