@@ -9,7 +9,7 @@ int main() {
     cout << *(&x) << endl;
     cout << *(&(*ptr)) << endl;
     
-    //NOTE: * is  deference operator, which is used to ectch the value of the address
+    //NOTE: * is  deference operator, which is used to fetch the value of the address
 
     return 0;
 }
