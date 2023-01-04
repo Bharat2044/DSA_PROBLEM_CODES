@@ -6,7 +6,8 @@ struct Rectangle {
     int length;
     int breadth;
 };
-int area(Rectangle r1) {
+int area(Rectangle r1) {    
+    r1.length++;
     return r1.length * r1.breadth;
 }
 int main() { 
