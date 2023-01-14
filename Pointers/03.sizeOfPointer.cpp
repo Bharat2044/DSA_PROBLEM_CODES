@@ -10,6 +10,7 @@ int main() {
     float *f;
     double *d;
     int **a;
+    float **b;
     cout << sizeof(x) << endl; 
     cout << sizeof(y) << endl; 
     cout << sizeof(z) << endl; 
@@ -18,6 +19,7 @@ int main() {
     cout << sizeof(f) << endl; 
     cout << sizeof(d) << endl; 
     cout << sizeof(a) << endl; 
+    cout << sizeof(b) << endl; 
 
     return 0;
 }
