@@ -35,33 +35,33 @@ void printUnion(int arr1[], int arr2[], int m, int n) {
             if(k!=arr1[i]) {    //Checking duplicate elements
                 cout << arr1[i] <<"   ";
                     k=arr1[i];
-                }
-                i++;
             }
-            else {      //else if(arr2[j] < arr1[i])
-                if(k!=arr2[j]) {    //Checking duplicate elements
-                    cout << arr2[j] <<"   ";
-                    k=arr2[j];
-                }
-                j++;
-            }
-        }
-        // Print remaining elements of arr1
-        while(i<m) {
-            if(k!=arr1[i]) {    //Checking duplicate elements
-                    cout << arr1[i] <<"   ";
-                    k=arr1[i];
-                }
                 i++;
         }
-        // Print remaining elements of arr2
-        while(j<n) {
+        else {      //else if(arr2[j] < arr1[i])
             if(k!=arr2[j]) {    //Checking duplicate elements
                 cout << arr2[j] <<"   ";
                 k=arr2[j];
             }
             j++;
         }
+    }
+    // Print remaining elements of arr1
+    while(i<m) {
+        if(k!=arr1[i]) {    //Checking duplicate elements
+            cout << arr1[i] <<"   ";
+            k=arr1[i];
+        }
+            i++;
+    }
+    // Print remaining elements of arr2
+    while(j<n) {
+        if(k!=arr2[j]) {    //Checking duplicate elements
+            cout << arr2[j] <<"   ";
+            k=arr2[j];
+        }
+        j++;
+    }
 }*/
 
 /* Approach-3  --> Using set()  ==>  Time Complexity = O(m*log(m)+n*log(n)) , Space Complexity = O(m+n)
