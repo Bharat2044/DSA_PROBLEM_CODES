@@ -5,7 +5,7 @@
 using namespace std;
 
 // Time Complexity = O(m+n) , Space Complexity = O(1)
-void symmDiff(int arr1[], int arr2[], int m, int n) {       //arr1-arr2
+void setDiff(int arr1[], int arr2[], int m, int n) {       //arr1-arr2
     int i = 0, j = 0;
     while(i < m && j < n) {
         if(arr1[i] < arr2[j])
@@ -25,6 +25,7 @@ int main() {
     int arr2[] = {2, 7, 8, 10, 12};
     int n1 = sizeof(arr1)/sizeof(arr1[0]);
     int n2 = sizeof(arr2)/sizeof(arr2[0]);
-    symmDiff(arr1, arr2, n1, n2);       //arr1-arr2
+    setDiff(arr1, arr2, n1, n2);       //arr1-arr2
+    
     return 0;
 }
