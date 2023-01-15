@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int linearSearch(int *arr, int n, int x) {          //Time Complexity = O(n)
+int transitionLinearSearch(int *arr, int n, int x) {          //Time Complexity = O(n)
     for(int i=0; i<n; i++) {
         if(arr[i] == x) {
             if(i != 0)
@@ -21,10 +21,10 @@ int main() {
         cin>>arr[i];
     cout << "Enter element want to find: ";
     cin >> x;
-    if(linearSearch(arr, n, x) == -1)
+    if(transitionLinearSearch(arr, n, x) == -1)
         cout << "Element not found";
     else
-        cout << "Element found at index: " << linearSearch(arr, n, x);
+        cout << "Element found at index: " << transitionLinearSearch(arr, n, x);
 
     delete []arr;
     return 0;
