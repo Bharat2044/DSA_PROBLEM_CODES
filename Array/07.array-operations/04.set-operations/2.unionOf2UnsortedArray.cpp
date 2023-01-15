@@ -86,7 +86,7 @@ void printUnion(int arr1[], int arr2[], int m, int n) {
         }
 }*/
 
-/* Approach-4  --> Using set()  ==>  Time Complexity = O(m*log(m)+n*log(n)) , Space Complexity = O(m+n)
+/* Approach-4  -->  Using set()  ==>  Time Complexity = O(m*log(m)+n*log(n)) , Space Complexity = O(m+n)
 //If array contains unique or duplicate element
 void printUnion(int arr1[], int arr2[], int m, int n) { 
     set<int> s;
