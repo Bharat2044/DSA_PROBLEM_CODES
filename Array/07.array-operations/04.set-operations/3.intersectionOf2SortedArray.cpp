@@ -42,7 +42,7 @@ void printIntersection(int *arr1, int *arr2, int m, int n){
     }
 }
 
-/*Approach-3  --> Using Set ->   Time Complexity = O(m + n) , Space Complexity = O(min(m, n)) <- Auxilary Space
+/*Approach-3  --> Using Set ->   Time Complexity = O(m*logm + n*logn) , Space Complexity = O(min(m, n)) <- Auxilary Space
 //If Array contains duplicate element
 void printIntersection(int *arr1, int *arr2, int m, int n){
     set<int> s;
