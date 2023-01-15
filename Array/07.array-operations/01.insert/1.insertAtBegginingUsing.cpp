@@ -6,7 +6,7 @@ void printArray(int *arr, int n) {
         cout << arr[i] << "    ";
     cout << endl;
 }
-void insertAtBegin(int arr[], int &n, int cap, int x) {      // Time Complegity = O(1)
+void insertAtBegin(int arr[], int &n, int cap, int x) {      // Time Complegity = O(n)
     for(int i=n; i>0; i--)
         arr[i] = arr[i-1];
     arr[0] = x;
