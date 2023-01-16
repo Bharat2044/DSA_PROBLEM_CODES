@@ -23,6 +23,6 @@ int main() {
     int arr2[] = {2, 7, 12, 11, 8};
     int n1 = sizeof(arr1)/sizeof(arr1[0]);
     int n2 = sizeof(arr2)/sizeof(arr2[0]);
-    setDiff(arr1, arr2, n1, n2);       //arr1-arr2
+    setDiff(arr1, arr2, n1, n2);      //arr1-arr2
     return 0;
 }
