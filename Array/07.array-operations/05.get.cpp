@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int get(int *arr, int n, int index) {          //Time Complexity = O(n)
+int get(int *arr, int n, int index) {          //Time Complexity = O(1)
     if(index>=0 && index<n)
         return arr[index];
     return -1;
@@ -19,5 +19,6 @@ int main() {
     cout << get(arr, n, index);
 
     delete []arr;
+    
     return 0;
 }
