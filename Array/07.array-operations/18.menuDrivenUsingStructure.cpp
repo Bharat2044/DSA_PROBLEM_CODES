@@ -93,8 +93,6 @@ int main() {
         	case 5:
         	    display(arr);
         	    break;
-        	default:
-        	    cout << "Please enter correct choice\n";
     	}
      }while(ch != 6);
     
