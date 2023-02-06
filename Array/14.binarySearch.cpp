@@ -1,7 +1,10 @@
+//Question Links  =>  Leetcode =  https://leetcode.com/problems/binary-search/
+//                =>  GFG   =     https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1
+
 #include<iostream>
 using namespace std;
 
-int binarySearch(int *arr, int n, int x) {          //Time Complexity = O(logn)
+int binarySearch(int *arr, int n, int x) {          //Time Complexity = O(logn), Space Complexity = O(1)
     int st=0, end=n-1;
     while(st<=end) {
         int mid = st+(end-st)/2;
