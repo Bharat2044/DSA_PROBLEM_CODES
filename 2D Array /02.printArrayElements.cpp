@@ -5,7 +5,7 @@ void printRowMajorOrder(int arr[][3], int m, int n) {
     cout << "Array A printing in row major order:\n";      
     for(int i=0; i<m; i++) {
         for(int j=0; j<n; j++)
-            cout << arr[i][j] << "  ";
+            cout << *(*(arr+i)+j) << "  ";  //cout << arr[i][j] << "  ";
         cout << endl;
     }
     cout << endl;
@@ -14,7 +14,7 @@ void printColumnMajorOrder(int arr[][3], int m, int n) {
     cout << "Array A printing in column major order:\n";      
     for(int i=0; i<m; i++) {
         for(int j=0; j<n; j++)
-            cout << arr[j][i] << "  ";
+            cout << arr[j][i] << "  ";  //cout << *(*(arr+j)+i) << "  ";
         cout << endl;
     }
     cout << endl;
