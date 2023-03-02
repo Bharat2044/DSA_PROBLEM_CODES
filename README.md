@@ -1,8 +1,8 @@
 # DSA-Code
-This code repo for all c++ concpet and dsa problem on Array, Linked list, Stack, Queue, Tree, Graph, Hashing, Trie, Dynamic programming, etc  solution in c++ programming language
+> This code repo for all c++ concpet and dsa problem on Array, Linked list, Stack, Queue, Tree, Graph, Hashing, Trie, Dynamic programming, etc  solution in c++ programming language
 
 
-`Topic Names :
+### Topic Names :
 1. Variables
 2. Operators
 3. Conditional Statement / if-else and switch
@@ -37,4 +37,4 @@ This code repo for all c++ concpet and dsa problem on Array, Linked list, Stack,
 32. Trie
 33. Segment and Binary Indexed Tree
 34. Disjoint Set
-`
+
