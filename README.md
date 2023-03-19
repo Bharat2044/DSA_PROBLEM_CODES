@@ -3,7 +3,7 @@
 
 
 ## **`Topic Names :`**
-1. [**_Variables_**](./Variables/ "Variables")    <br/>
+[**_1.Variables_**](./Variables/ "Variables")    <br/>
 [**_2. Data Types & Type Casting_**](./2.%20Data%20Types%20%26%20Type%20Casting/ "Data Types & Type Casting")    <br/>
 3. Operators    <br/>
 4. Conditional Statement / if-else and switch   <br/>
