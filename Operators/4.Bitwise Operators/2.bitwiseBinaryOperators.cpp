@@ -18,7 +18,30 @@ int main() {
     cout << "4" << " << " << "2" << " is " << (4 << 2) << endl;
 
     // bitwise right shift
-    cout << "4" << " >> " << "2" << " is " << (4 >> 2) << endl;
+    cout << "4" << " >> " << "2" << " is " << (4 >> 2) << endl << endl;
+
+
+    cout << "1 & 1 is " << (1 & 1) << endl;
+    cout << "1 & 0 is " << (1 & 0) << endl;
+    cout << "0 & 1 is " << (0 & 1) << endl;
+    cout << "0 & 0 is " << (0 & 0) << endl << endl;
+
+
+    cout << "1 | 1 is " << (1 | 1) << endl;
+    cout << "1 | 0 is " << (1 | 0) << endl;
+    cout << "0 | 1 is " << (0 | 1) << endl;
+    cout << "0 | 0 is " << (0 | 0) << endl << endl;
+
+
+    cout << "1 ^ 1 is " << (1 ^ 1) << endl;
+    cout << "1 ^ 0 is " << (1 ^ 0) << endl;
+    cout << "0 ^ 1 is " << (0 ^ 1) << endl;
+    cout << "0 ^ 0 is " << (0 ^ 0) << endl << endl;    
+
+
+    cout << "~1 is " << ~1 << endl;
+    cout << "~0 is " << ~0 << endl;
+    cout << "~(-1) is " << ~(-1) << endl;
 
     return 0;
 }
