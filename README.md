@@ -1,5 +1,5 @@
 # **DSA-Code**
-> ## **`This code repo is for all c++ concepts from basic to advance and DSA problems on Array, Linked list, Stack, Queue, Tree, Graph, Hashing, Trie, Dynamic programming, etc solution in c++ programming language.`**
+> ## **`This code repo is for all c++ concepts code from basic to advance and DSA problems on Array, Linked list, Stack, Queue, Tree, Graph, Hashing, Trie, Dynamic programming, etc solutions in c++ programming language.`**
 
 
 # **`Topic Names :`**
