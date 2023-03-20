@@ -10,8 +10,14 @@ int main() {
     if (num > 0) {
         cout << "You entered a positive integer: " << num << endl;
     }
-
-    cout << "This statement is always executed.";
+    // checks if the number is negative
+    if (num < 0) {
+        cout << "You entered a negative integer: " << num << endl;
+    }
+    // checks if the number is zero
+    if (num == 0) {
+        cout << "You entered a zero integer: " << num << endl;
+    }
 
     return 0;
 }
