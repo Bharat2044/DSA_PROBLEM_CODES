@@ -21,7 +21,7 @@
 ### 16. Char Array & String   <br/>
 ### 17. Searching    <br/>
 ### 18. Sorting    <br/>
-### [**_19. 2d Array/Matrix_**](./2D%20Array%20 "2D Array")    <br/>
+### [**_19. 2D Array / Matrix_**](./2D%20Array%20 "2D Array")    <br/>
 ### 20. Hashing   <br/>
 ### 21. Recursion  <br/>
 ### 22. Backtracking   <br/>
