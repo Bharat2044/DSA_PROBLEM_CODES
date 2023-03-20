@@ -5,7 +5,7 @@
 ## **`Topic Names :`**
 [**_1. Variables_**](./Variables/ "Variables")    <br/>
 [**_2. Data Types & Type Casting_**](./Data%20Types%20%26%20Type%20Casting/ "Data Types & Type Casting")    <br/>
-3. Operators    <br/>
+[**_3. Operators_**](./Operators/ "Operators")    <br/>
 4. Conditional Statement / if-else and switch   <br/>
 [**_5. Flow Control/loops_**](./Loops/ "Loops")    <br/>
 [**_6. Functions_**](./Functions "Functions")    <br/>
