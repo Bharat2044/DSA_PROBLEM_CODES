@@ -67,7 +67,6 @@ int main() {
 
         default:
             cout << "It is not an alphabet";
-            break;
     }        
     
     return 0;
