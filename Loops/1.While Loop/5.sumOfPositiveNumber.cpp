@@ -6,8 +6,7 @@
 using namespace std;
 
 int main() {
-    int num;
-    int sum = 0;
+    int num, sum = 0;
 
     // take input from the user
     cout << "Enter a number: ";
