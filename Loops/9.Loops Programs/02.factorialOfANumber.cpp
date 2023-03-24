@@ -12,7 +12,7 @@ int factorial(int num) {
     return fact;
 }*/
 
-// Approach - 1 : Using Loops  =>  Time Complexity: O(n), Space Complexity: O(n)
+// Approach - 2 : Using Recursion  =>  Time Complexity: O(n), Space Complexity: O(n)
 int factorial(int num) {
     if(num == 0) 
         return 1;
