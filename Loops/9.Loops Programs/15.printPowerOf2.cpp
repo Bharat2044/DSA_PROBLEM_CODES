@@ -30,6 +30,8 @@ int powerOf2(int n) {
 
 int main() {
     int n;
+
+    cout << "Enter a number: ";
     cin >> n;
 
     cout << "2^" << n << " = " << powerOf2(n) << endl;
