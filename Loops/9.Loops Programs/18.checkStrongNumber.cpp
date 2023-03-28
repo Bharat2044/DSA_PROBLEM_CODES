@@ -13,7 +13,7 @@ int factorial(int n) {
     return fact;
 }
 
-// Time Complexity: O(n), Space Complexity: O(1)
+// Time Complexity: O(logn), Space Complexity: O(1)
 bool isStrong(int n) {
     int sum = 0, temp = n;
 
