@@ -13,7 +13,7 @@ int secondLargest(int arr[], int n) {
     sort(arr, arr+n);
     int ans = INT_MIN;
     //Checking duplicate 
-    for(int i=n-2; i>=0; i++) {
+    for(int i=n-2; i>=0; i--) {
         if(arr[i] != arr[n-1]){
             ans = arr[i];
             break;
@@ -56,7 +56,7 @@ int secondLargest(int arr[], int n) {
     int ans = INT_MIN;
     //compare with largest to fing second largest
     for(int i=0; i<n; i++) {
-        if((arr[i]>ans) && (arr[i]<largest))
+        if((arr[i]>ans) && (arr[i]!=largest))
             ans = arr[i];
     }
     return ans;
