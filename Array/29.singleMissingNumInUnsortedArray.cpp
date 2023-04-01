@@ -71,11 +71,13 @@ int firstMissing(int arr[], int n) {
         if(visited[i] == 0)
             return i;
     }
+    
     return -1;
 }
 
 int main() {
     // int arr[] = {1, 2, 5, 3, 7, 6};
+    
     int arr[] = {3, 4, 1, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
     
